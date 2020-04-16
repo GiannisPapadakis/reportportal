@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Workshop" >
+
+    <test name="Web Demo">
+        <parameter name="url"  value="http://www.google.com"/>
+        <parameter name="content"  value="www.google.com" />
+        <classes>
+            <class name="com.gp.workshop.testng.WebTest">
+            </class>
+        </classes>
+    </test>
+
+</suite>
